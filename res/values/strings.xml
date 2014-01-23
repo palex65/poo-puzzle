@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Puzzle</string>
+    <string name="orig_image">Original image</string>
+    <string name="fiinishMsg">Play again?</string>
+    <string name="finish">Finish</string>
+    <string name="shuffle">Shuffle again</string>
+    <string name="finishDialogTitle">Puzzle completed</string>
+</resources>

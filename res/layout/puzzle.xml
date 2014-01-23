@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/pt.isel.poo.puzzle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <pt.isel.poo.puzzle.TilePanel
+        android:id="@+id/tilePanel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" 
+        app:widthTiles="5" 
+        app:background="@android:color/background_light" />
+    
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:contentDescription="@string/orig_image"
+        android:src="@drawable/ccisel" />
+
+</RelativeLayout>

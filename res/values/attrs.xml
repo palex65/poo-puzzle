@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <declare-styleable name="TilePanel">
+    <attr name="widthTiles" format="integer" />
+    <attr name="heightTiles" format="integer" />
+    <attr name="background" format="color" />
+  </declare-styleable>
+
+</resources>
